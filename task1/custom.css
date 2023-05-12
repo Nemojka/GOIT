@@ -1,0 +1,66 @@
+body { font-family: 'Montserrat', sans-serif; }
+.row { box-shadow: 0px 0px 15px rgb(0,0,0,0.4); text-align: start; }
+.bgc-darkblue{
+    background-color: #1E2939;
+}
+.font-h1 { font-size: 45px; font-weight: 700; }
+.font-h2 { font-size: 32px; font-weight: 700; }
+.font-h3 { font-size: 22px; font-weight: 700; }
+.font-h4 { font-size: 16px; font-weight: 700; }
+.font-p { font-size: 14px; margin: 0; }
+p { margin: 0; }
+.col-md-3 { min-height: 1200px; }
+.container-contact .cont-nr-tel,
+.container-contact .cont-email { width: 100%; }
+.container-contact .cont-nr-tel p,
+.container-contact .cont-email p { padding-right: 5%; margin-bottom: 0; }
+.container-contact .cont-nr-tel a,
+.container-contact .cont-email a {  text-decoration: none; opacity: .5; color: white; }
+.container-contact, .techskills, .softskills { padding: 15px 0px 15px 40px;}
+.container-contact { color:white; padding-top: 50px; }
+.container-contact .font-h3,
+.techskills .font-h3,
+.softskills .font-h3 { color: white; }
+.techskills .my-list-type, .softskills .my-list-type {
+    list-style: none;
+    padding: 0; /*tego nie jak używasz margin-left: -2em;*/
+    font-size: 14px;
+}
+.techskills .my-list-type li::before, .softskills .my-list-type li::before{
+    content: "\2022";
+    color: #FB6D3A;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1.2em;
+    margin-left: 0;
+    /*margin-left: -2em;*/
+}   
+.techskills .my-list-type li, .softskills .my-list-type li {
+    color: white;
+}
+
+.col-md-9 { padding: 80px 80px 0px 90px;}
+.myDetails { padding-bottom: 20px; }
+.myProjects { padding-top: 20px; }
+.myProjects ol {
+    padding-left: 1.2em; /*tego nie jak używasz margin-left: -2em;*/
+    font-size: 14px;
+}
+.myProjects ol li::marker {
+    color: #000;
+    font-weight: 600;
+}
+.workExpierience { margin-top: 40px; }
+.myDetails { width: 50%; }
+.myProjects { width: 60%; }
+.workExpierience { width: 65%; }
+.education { margin-top: 35px; }
+
+.myLinks { text-decoration: none; color: #212529 }
+.myLinks:hover { color: #FB6D3A; }
+
+@media only screen and (max-width: 768px) {
+    .myDetails { padding-top: 40px; }
+
+}
+

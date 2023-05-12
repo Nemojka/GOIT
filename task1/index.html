@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>MY Cv</title>
+        <link rel="stylesheet" href="custom.css">
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
             rel="stylesheet"
@@ -21,59 +22,122 @@
             integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
             crossorigin="anonymous"
         ></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
         <style>
-            .bgc-darkblue{
-                background-color: #1E2939;
-            }
-            .container-contact{
-                
-            }
+          
         </style>
     </head>
     <body>
-        <div class="container text-center">
-            <div class="row align-items-center">
-                <div class="col-4 bgc-darkblue">
+        <div class="container text-center py-5">
+            <div class="row align-items-start">
+                <div class="col-sm-12 col-md-3 bgc-darkblue px-0 py-4">
                         <div class="conteiner-myImg d-flex align-items-center justify-content-center">
-                            <img src="ja.png" alt="My Photo">
+                            <img src="ja.png" alt="My Photo" class="w-100">
                         </div>
-                        <div class="conteiner-contact d-flex align-items-center justify-content-center">
+                        <div class="container-contact d-flex flex-column align-items-start justify-content-center">
                             <h3 class="font-h3">Contacts</h3>
-                            <a class="numer-telefonu" href="tel:+48607125332">
-                                <span style="color:white;font-weight: 600;">C:</span>
-                                +48 607 125 332 
-                            </a>
-                            <a class="email" href="mailto:alan5@poczta.onet.pl" >
-                                <span style="color:white;font-weight: 600;">E:</span>
-                                alan5@poczta.onet.pl    
-                            </a>
+                            <div class="cont-nr-tel d-flex">
+                                <p>C:</p>
+                                <a class="numer-telefonu" href="tel:+48607125332">
+                                    +48 607 125 332 
+                                </a>
+                            </div>
+                            <div class="cont-email d-flex">
+                                <p>E:</p>
+                                <a class="email" href="mailto:alan5@poczta.onet.pl" >
+                                    alan5@poczta.onet.pl    
+                                </a>
+                            </div>
+                            
                         </div>
-                        <div class="techskills">
-                            <ul class="list-group">
-                                <li class="list-group-item">HTML5</li>
-                                <li class="list-group-item">CSS3</li>
-                                <li class="list-group-item">GIT</li>
-                                <li class="list-group-item">WebPack</li>
-                                <li class="list-group-item">JavaScript</li>
-                                <li class="list-group-item">React.js</li>
-                                <li class="list-group-item">Node.js</li>
+                        <div class="techskills d-flex flex-column align-items-start">
+                            <h3 class="font-h3">Tech Skills</h3>
+                            <ul class="my-list-type">
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>GIT</li>
+                                <li>WebPack</li>
+                                <li>JavaScript</li>
+                                <li>React.js</li>
+                                <li>Node.js</li>
                               </ul>
                         </div>
-                        <div class="softskills">
-                            <ul class="list-group">
-                                <li class="list-group-item">Scrum</li>
-                                <li class="list-group-item">Agile</li>
-                                <li class="list-group-item">GTD</li>
-                                <li class="list-group-item">Teamwork</li>
+                        <div class="softskills d-flex flex-column align-items-start">
+                            <h3 class="font-h3">Soft Skills</h3>
+                            <ul class="my-list-type">
+                                <li>Scrum</li>
+                                <li>Agile</li>
+                                <li>GTD</li>
+                                <li>Teamwork</li>
                               </ul>
                         </div>
                 </div>
 
-                <div class="col-8">
-                    
+                <div class="col-sm-12 col-md-9">
+                    <div class="myDetails d-flex flex-column align-items-start justify-content-center">
+                        <h4 class="font-h4">Front-End Developer</h4>
+                        <h2 class="font-h2 line-height-">John Doe</h2>
+                        <p class="font-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                    </div>
+                    <div class="myProjects d-flex flex-column align-items-start justify-content-center">
+                        <h3 class="font-h3">Projects</h3>
+                        <ol>
+                            <li><a href="https://barbershop-pl.goit.global/" class="myLinks">https://barbershop-pl.goit.global/</a> _ _ _ _ _ <b>[</b> HTML5, CSS3 <b>]</b></li>
+                            <li><a href="https://cryptohub.goit.global/" class="myLinks">https://cryptohub.goit.global/</a> _ _ _ _ _ _ _ <b>[</b> JavaScript <b>]</b></li>
+                            <li><a href="https://kidslike.goit.global/" class="myLinks">https://kidslike.goit.global/</a> _ _ _ _ _ _ _ _ _ <b>[</b> React.js, Node.js <b>]</b></li>
+                        </ol>
+                    </div>
+                    <div class="workExpierience"> 
+                        <h3 class="font-h3">Work Expierience</h3>
+                        <div class="firstWork">
+                            <h4 class="font-h4">Front-End Developer <span style="color: #FB6D3A;">Freelance</span></h4>
+                            <p style="font-size: 12px; color: #a8a8a8; font-weight: 400;">September 2019 - up to now <b>|</b> Country</p>
+                            <ul class="my-list-type">
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                <li>Risus commodo viverra maecenas. </li>
+                                <li>TLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
+                            </ul>
+                           
+                        </div>
+                        <div class="secondWork">
+                            <h4 class="font-h4">Manager <span style="color: #FB6D3A;">Glory New</span></h4>
+                            <p style="font-size: 12px; color: #a8a8a8; font-weight: 400;">March 2015 - October 2018 <b>|</b> Country </p>
+                            <ul class="my-list-type">
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua. </li>
+                                <li>Quis ipsum suspendisse ultrices gravida.</li>
+                                <li>Risus commodo viverra maecenas. </li>
+                            </ul>
+                        </div>
+                        <div class="thirdWork">
+                            <h4 class="font-h4">Manager <span style="color: #FB6D3A;">Glory LLC</span></h4>
+                            <p style="font-size: 12px; color: #a8a8a8; font-weight: 400;">June 2014 - February 2015 <b>|</b> Country</p>
+                            <ul class="my-list-type">
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                <li>Quis ipsum suspendisse ultrices gravida.</li>
+                                <li>Risus commodo viverra maecenas. </li>
+                            </ul> 
+                        </div>
+                    </div>
+                    <div class="education"> 
+                        <h3 class="font-h3">Education</h3>
+                        <h4 class="font-4"><span style="color: #FB6D3A;">National University</span></h4>
+                        <p class="font-p" style="font-weight: 400;">Management</p>
+                        <p style="font-size: 12px; color: #a8a8a8">September 2009 - June 2014 <b>|</b> Country</p>
+                    </div>
                 </div>
             </div>
         </div>
+
+        
+  
+    </div>
+</div>
+        
+
 
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
