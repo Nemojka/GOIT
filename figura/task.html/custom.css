@@ -1,0 +1,102 @@
+
+.logo-poziom{
+    position: absolute;
+    width: 380px;
+    height: 75px;
+    left: 770px;
+    top: 106px;
+}
+.image-container{
+    position: relative;
+}
+.image{
+    position: absolute;
+}
+.image-left {
+    float: left;
+    right: 50%;
+    z-index: 1;
+    height: auto;
+    margin-left:-23px;
+    padding-left: 50px;
+  }
+  
+  .image-right {
+    float: right;
+    left:50%;
+    z-index: 2;
+    margin-right:-20px;
+  }
+  .title{
+    position: absolute;
+    width: 380px;
+    height: 75px;
+    left: 770px;
+    top: 106px;  
+    background: #EF7F1A;
+  }
+.logo{
+    width:100%;
+    height:70px;
+    transform: scale(0.2);
+    position: relative;
+    background-image: none;
+}
+.heading1{
+        position: absolute;
+        top:20%;
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        color: #324C5E;
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 48px;
+      }
+.heading2{
+    line-height: 530px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+    color:black;
+}
+.head3{
+    position: absolute;
+    top:42%;
+    width: 100%;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    color: #324C5E;
+}
+.click{
+    top:20%;
+    width: 10%;
+    height: 30%;
+    left: 50%;
+    position: relative;
+    background-image: none;
+    background: #FF8A00;
+    border-radius: 65px;
+    color: white;
+    border: none;
+}
+.head4{
+    position: absolute;
+    width: 826px;
+    height: 14px;
+    left: 547px;
+    top: 567px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #000000;
+}
